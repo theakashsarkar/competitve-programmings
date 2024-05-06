@@ -21,26 +21,42 @@
 
 #include<iostream>
 using namespace std;
-void swapping(int &a, int &b) {  //swap the content of a and b
+void swapping(int &a, int &b) { 
    int temp;
    temp = a;
    a = b;
    b = temp;
 }
-void selectionSort(int *array, int size){
+// void selectionSort(int *array, int size){
+//    int i, j, imin;
+//    for (i = 1; i < size - 1; i++) {
+//         imin = i;
+//         for (j = i + 1; j < size; j++) 
+//             if (array[j] < array[imin]) 
+//                 imin = j;
+//         // int tmp = array[i];
+//         // array[i] = array[imin];
+//         // array[imin] = tmp;
+//     swap(array[i], array[imin]);
+
+//    }
+// }
+
+void selectionSort(int *array, int size) {
    int i, j, imin;
    for (i = 1; i < size - 1; i++) {
-        imin = i;
-        for (j = i + 1; j < size; j++) 
-            if (array[j] < array[imin]) 
-                imin = j;
-        // int tmp = array[i];
-        // array[i] = array[imin];
-        // array[imin] = tmp;
-    swap(array[i], array[imin]);
+      imin = i;
+      for (j = i + 1; i < size; j++) {
+         if (array[j] < array[imin]) {
+            imin = j;
+         };
+      };
+      int tmp = array[i];
+      array[i] = array[imin];
+      array[imin] = tmp;
+   };
+};
 
-   }
-}
 int main(){
    int n;
    n = 9;
