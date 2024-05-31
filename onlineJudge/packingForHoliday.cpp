@@ -19,7 +19,7 @@ int main() {
             cout << "Case " << cont << ": " << "bad" << endl;
 
         }
-                ++cont;
+        ++cont;
 
     }
 }
