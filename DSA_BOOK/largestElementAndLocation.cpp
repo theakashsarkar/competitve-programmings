@@ -24,7 +24,6 @@ void Find(int Data[], int size) {
         }
         k++;
     }
-    // cout << first << endl;
     cout << "large" <<  " " << first << " " << "second large" << " " << second << endl;
     cout << "loc" <<  " " << loc1 << " " << "loc2" << " " << loc2 << endl;
     return;

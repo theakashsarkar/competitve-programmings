@@ -1,0 +1,1 @@
+/Users/dev01/workspace/competitve-programmings/rust/target/debug/rust: /Users/dev01/workspace/competitve-programmings/rust/src/command.rs /Users/dev01/workspace/competitve-programmings/rust/src/main.rs
